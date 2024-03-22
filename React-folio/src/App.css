@@ -6,14 +6,20 @@
 }
 
 .logo {
+  display: block;
+  margin-right: 10rem;
+  margin-top: 1rem;
   height: 6em;
-  padding: 1.5em;
+  padding: 10px;
   will-change: filter;
   transition: filter 300ms;
+  color: black;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +28,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -35,8 +42,43 @@
 
 .card {
   padding: 2em;
+  margin: 1em;
 }
 
-.read-the-docs {
-  color: #888;
+
+
+Nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em;
+  margin: 0, auto;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 10rem;
+  margin-bottom: -50px;
+}
+
+ul li {
+  margin: 0 2rem;
+}
+
+.portfolio {
+  text-decoration: underline;
+}
+
+.project h3 {
+  text-decoration: wavy;
+}
+
+.project img {
+  max-width: 700px;
+  max-height: fit-content;
 }
