@@ -6,6 +6,10 @@ A website to use as a portfolio built using React and Vite.
 
 Website that shows previous works with links to about and contact pages.
 
+### Deployed site
+
+-(https://sourylime.github.io/react-folio/) (it doesnt work but runs locally)
+
 ## Authors
 Emily Kline
 (ekline42@gmail.com)
