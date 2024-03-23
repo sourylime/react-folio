@@ -1,8 +1,8 @@
 
 import React from 'react';
 import Project from './Project';
-import projectImage from './assets/2BA884E4-510D-42F5-9CBF-6443B0D9BA54.jpeg';
-import projectImage2 from './assets/ss1.png';
+import projectImage from '/2BA884E4-510D-42F5-9CBF-6443B0D9BA54.jpeg';
+import projectImage2 from '/ss1.png';
 
 const Portfolio = () => {
     return (
