@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import '/App.css'
-import Header from '/Header'
-import Footer from '/Footer'
-import Portfolio from '/Portfolio'
-import About from '/About'
-import { Contact, ContactForm } from '/Contact'
-import Home from '/home'
+import './App.css'
+import Header from './Header'
+import Footer from './Footer'
+import Portfolio from './Portfolio'
+import About from './About'
+import { Contact, ContactForm } from './Contact'
+import Home from './home'
 
 
 const App = () => {
