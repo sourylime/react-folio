@@ -5,7 +5,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Portfolio from './Portfolio'
 import About from './About'
-import Contact from './Contact'
+import { Contact, ContactForm } from './Contact'
 import Home from './home'
 
 
@@ -17,9 +17,14 @@ const App = () => {
         <Route path='/Home' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
-      </Routes>
-      <Portfolio />
+        <Route path='/Portfolio' element={<Portfolio />} />
+        <Route path='/contactForm' element={<ContactForm />} />
 
+      </Routes>
+
+
+      <Portfolio />
+      <ContactForm />
       <Footer />
     </Router>
 
