@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 
-// https://https://sourylime.github.io/react-folio/
+//https://sourylime.github.io/react-folio/
 
 
 
